@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Basispagina</title>
+
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!--[if lt IE 9]>
+		   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#"><img class="img-rounded img" alt="homebutton" src="images/logo.png"></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-target">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="mynavbar-target">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Oudleerlingen</a></li>
+						<li><a href="#">Nieuws</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="container">
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+           <div class="item active">
+             <img src="images/luffy.jpg" alt="Luffy" style="width: 100%;">
+             <div class="carousel-caption">
+               <h3>Monkey D Luffy</h3>
+               <p>
+                 I want some meat !!!
+               </p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="images/zoro.jpg" alt="Zoro" style="width: 100%;">
+             <div class="carousel-caption">
+               <h3>Rononoa Zoro</h3>
+               <p>
+                 I can cut through everything !!!
+               </p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="images/sanji.jpg" alt="Sanji" style="width: 100%;">
+             <div class="carousel-caption">
+               <h3>Vinsmoke Sanji</h3>
+               <p>
+                 Nami my love !!!
+               </p>
+             </div>
+           </div>
+         </div>
+
+         <!-- Left and right controls -->
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+
+         </a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+
+         </a>
+  </div>
+     </div>
+		<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

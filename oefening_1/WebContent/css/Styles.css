@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.col1 {
+	
+	background-color: Red;
+	
+}
+
+.col2  {
+	
+	background-color: yellow;
+	
+}
+
+.col3 {
+	
+	background-color: grey;
+	
+}
+
+.col4 {
+	
+	background-color: lime;
+	
+}
+
+.title {
+	
+	border-bottom: solid grey 1px;
+	padding-bottom: 10px;
+	
+}
